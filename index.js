@@ -20,11 +20,9 @@ playerTwo = document.querySelectorAll(".dice p ")[1].textContent = playerTwo;
 
 if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").textContent = playerOne + " Wins!";
-    
-}
-else if (randomNumber1 < randomNumber2) {
+
+} else if (randomNumber1 < randomNumber2) {
     document.querySelector("h1").textContent = playerTwo + " Wins!";
-}
-else {
+} else {
     document.querySelector("h1").textContent = "Draw!";
 }
